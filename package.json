@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass sass/main.scss css/main.css -w"
+    "sass": "node-sass designerCard/sass/main.scss designerCard/css/main.css -w"
   },
   "author": "",
   "license": "ISC",
