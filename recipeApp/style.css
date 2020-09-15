@@ -51,9 +51,31 @@ header button{
     text-transform: uppercase;
 }
 
+.fav_meals{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.fav_meals li{
+    margin: 5px;
+    width: 75px;
+    cursor: pointer;
+}
+
+.fav_meals li img{
+    width: 70px;
+    height: 70px;
+    box-shadow:0 0 15px 0.5px black;
+    border-radius: 50%;
+}
+
 .meal_header img{
     object-fit: cover;
     height: 250px;
+    object-fit: cover;
 }
 
 .meal_body{
@@ -75,6 +97,3 @@ header button{
     color: rgb(197, 188, 188);
     font-size: 1rem;
 }
-
-
-
