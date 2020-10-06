@@ -1,0 +1,77 @@
+:root{
+    --shadow: -9px 10px 10px 9px #888888;
+    --title: 'Sansita Swashed', cursive;
+    --margincontainer: 2.5rem 0;
+}
+
+.container{
+    width: 90rem;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.header h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header_details{
+    display: flex;
+    margin:  0 5rem ;
+}
+
+.header_details img {
+    max-width: 35rem;
+    max-height: 20rem;
+    margin-right: 2rem;
+    object-fit: cover;
+    box-shadow:  var(--shadow);
+}
+
+.products{
+    margin:5rem 5rem;
+}
+
+.products h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.products .products__galery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.products .products__galery img{
+    max-width: 18.5rem;
+    object-fit: cover;
+    max-height: auto;
+    margin: .5rem;
+    border-radius: .2rem;
+}
+
+
+@media only screen and (max-width: 650px){
+    body{
+        width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    h1, p ,h2{
+        font-size: small;
+    }
+
+    .header_details{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header_details img{
+        width: 100%;
+    }
+
+}
