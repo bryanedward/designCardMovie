@@ -10,6 +10,37 @@
     margin: auto;
 }
 
+/* nav start */
+.nav{
+    background: rgb(250, 250, 250);
+    padding: 1rem 0;
+}
+
+.nav li{
+    display:inline-block;
+    margin: 1rem;
+}
+
+.nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav ul li a:hover{
+    color: #6495ed;
+}
+
+/* nav end */
+
+/* header end */
 .header h1{
     text-align: center;
     text-transform: uppercase;
@@ -28,6 +59,9 @@
     box-shadow:  var(--shadow);
 }
 
+/* neder end */
+
+/* products start */
 .products{
     margin:5rem 5rem;
 }
@@ -42,6 +76,20 @@
     flex-wrap: wrap;
     width: 100%;
 }
+
+.products .products__galery .product__food img {
+    position: relative;
+}
+
+.products .products__galery .product__food .product__info{
+    border: 1px solid black;
+    display: inline-block;
+    bottom: 0;
+    top: 0;
+    right: -10;
+    left: 0;
+}
+
 
 .products .products__galery img{
     max-width: 18.5rem;
